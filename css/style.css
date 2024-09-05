@@ -133,3 +133,29 @@ header::before{
     right: 22px;
     bottom: 27%;
 }
+
+.wallet_box_1 {
+    background-image: linear-gradient(to right bottom, #07101D, #FC280C);
+}
+.wallet_box_2 {
+    background-image: linear-gradient(to right bottom, #07101D, #FFBB0D);
+}
+.wallet_box_3 {
+    background-image: linear-gradient(to right bottom, #07101D, #00D1FF);
+}
+.wallet_box_4 {
+    background-image: linear-gradient(to right bottom, #07101D, #760AFF);
+}
+.wallet_box_5 {
+    background-image: linear-gradient(to right bottom, #07101D, #FE007A);
+}
+.wallet_box_6 {
+    background-image: linear-gradient(to right bottom, #07101D, #FFBF1C);
+}
+.wallet_box {
+    padding: 1px;
+    height: 188px;
+}
+.wallet_box div {
+    background-color: #161E2A
+}
