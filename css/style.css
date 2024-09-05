@@ -41,16 +41,95 @@ a {
     src: url(../font/WebFonts/_Woff2/KalamehWeb-Regular.woff2) format('woff');
 }
 
-.text.FF3C00 {
+header::before{
+    content: '';
+    width: 904px;
+    height: 876px;
+    background-image: radial-gradient(#3D0D58 38%, #070F1C00 0);
+    position: absolute;
+    filter: blur(75px);
+    -webkit-filter: blur(75px);
+    opacity: 0.4;
+    right: -273px;
+    top: -273px;
+    z-index: -1;
+}
+
+.text_FF3C00 {
     color: var(--color_FF3C00)
 }
 
-.bg-FF3C00 {
+.bg_FF3C00 {
     background-color: var(--color_FF3C00);
+}
+
+
+.border_FF3C00 {
+    border-color: var(--color_FF3C00) !important;
+}
+
+
+.title_main_header {
+    font-size: 4rem;
 }
 
 @media screen and (max-width: 992.98px) {
     .bg_dark_md {
         background-color: var(--bs-secondary-color);
     }
+}
+@media screen and (max-width: 600.98px) {
+    .title_main_header {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 600.98px) {
+    .input-search {
+        padding: 30rem;
+    }
+}
+
+
+.w_70{
+    width: 70%;
+}
+
+.bg_gradient_main_site {
+    background-image: linear-gradient(to right, #7011AD, #BC0505, #FC630F);
+}
+
+.main-header-img::before {
+    content: '';
+    background-image: url(/image/brokenline.png);
+    position: absolute;
+    width: 55px;
+    height: 81px;
+    background-repeat: no-repeat;
+    top: 1rem;
+    right: -2rem;
+}
+
+
+.main-header-img::after {
+    content: '';
+    background-image: url(/image/spring.png);
+    position: absolute;
+    width: 72px;
+    height: 51px;
+    background-repeat: no-repeat;
+    bottom: 1rem;
+}
+
+.artist-group-show {
+    width: 300px;
+    height: 79px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 0rem;
+}
+
+.search-form-header img {
+    right: 22px;
+    bottom: 27%;
 }
