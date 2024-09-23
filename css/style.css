@@ -41,6 +41,13 @@ a {
     src: url(../font/WebFonts/_Woff2/KalamehWeb-Regular.woff2) format('woff');
 }
 
+@font-face {
+    font-family: Gilory_Bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/gilory-bold/Gilory_Bold.woff) format('woff');
+}
+
 header::before{
     content: '';
     width: 904px;
@@ -158,4 +165,38 @@ header::before{
 }
 .wallet_box div {
     background-color: #161E2A
+}
+
+.hot-bids__box {
+    background-color: rgba(255, 255, 255, 0.10)
+}
+
+    
+
+.hot-bids__heart_img img {
+    position: absolute;
+    top:2.1rem;
+    left: 2.8rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+}
+
+.hot-bids__text_time {
+    position: absolute;
+    top: 2.6rem;
+    left: 9rem;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1) ;
+    color: #FFFFFF;
+    backdrop-filter: blur(10px);
+    font-size: 1.5rem;
+    padding: 5px;
+    font-family: Gilory_Bold;
+    
+}
+
+.hot-bids__caption {
+    position: relative;
+    color: #FFFFFF;
 }
