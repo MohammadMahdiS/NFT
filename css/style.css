@@ -200,3 +200,41 @@ header::before{
     position: relative;
     color: #FFFFFF;
 }
+
+.box_property {
+    height: 240px;
+}
+
+.box_property_1 {
+    border: 1px solid #00FF1A;
+    background: linear-gradient(106.88deg, rgba(0, 255, 26, 0.1) 19.63%, rgba(255, 255, 255, 0.1) 98.74%);
+
+}
+
+.box_property__icon {
+    width: 90px;
+    height: 89px;
+    border: 1px solid #FFFFFF80;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(50px);
+    top: -3rem;
+    right: 2rem;
+}
+
+.section_property {
+    margin-top: 11rem;
+}
+
+.box_property_2 {
+    border: 1px solid rgba(83, 0, 255, 1);
+    background: linear-gradient(106.88deg, rgba(0, 255, 26, 0.1) 19.63%, rgba(255, 255, 255, 0.1) 98.74%);
+
+}
+
+.box_property_3 {
+    border: 1px solid rgba(255, 31, 0, 1);
+    background: linear-gradient(106.88deg, rgba(255, 19, 4, 0.1) 19.63%, rgba(255, 255, 255, 0.1) 98.74%);
+
+
+
+}
