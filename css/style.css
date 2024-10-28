@@ -234,7 +234,31 @@ header::before{
 .box_property_3 {
     border: 1px solid rgba(255, 31, 0, 1);
     background: linear-gradient(106.88deg, rgba(255, 19, 4, 0.1) 19.63%, rgba(255, 255, 255, 0.1) 98.74%);
+}
+
+.box_trends__image {
+    transform: translateY(103px);
+}
+
+.box_trends__image img{
+    width: 90%;
+}
 
 
+.box_trends__caption {
+    background: rgba(255, 255, 255, 0.1);
+    height: 214px;
+    padding-top: 7rem !important;
+
+}
+
+.Ellipse_3 {
+    width: 1605px;
+    height: 1613px;
+    top: -17rem;
+    right: -37rem;
+    gap: 0px;
+    opacity: 0px;
+    background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(189, 9, 95, 0.13) 37.62%, rgba(7, 15, 28, 0) 100%);
 
 }
