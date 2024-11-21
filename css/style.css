@@ -262,3 +262,9 @@ header::before{
     background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(189, 9, 95, 0.13) 37.62%, rgba(7, 15, 28, 0) 100%);
 
 }
+
+.top-creators-box {
+    height: 182px;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    background-color: rgba(255, 255, 255, 0.1);
+}
